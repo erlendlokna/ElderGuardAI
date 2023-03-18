@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 
 import image from '../assets/oldman.png';
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-
 
 import "../styles/Home.css";
 
@@ -40,21 +38,6 @@ function Home() {
     <div>
     <b>ElderGuard AI active</b>
     </div>
-    </div>
-
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-      crossorigin=""
-    />
-    <div className="map">
-      <MapContainer center={[45.4, -75.7]} zoom={12}scrollWheelZoom={false}>
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        />
-      </MapContainer>
     </div>
 
     </div>

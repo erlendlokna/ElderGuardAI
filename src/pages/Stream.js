@@ -1,6 +1,6 @@
 import React from 'react';
 
-import video from '../assets/testvid.mp4';
+import video from '../assets/HaraldFallDetection.mp4';
 
 
 function Stream() {
