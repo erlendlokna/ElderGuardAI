@@ -32,6 +32,7 @@ function Navbar() {
             <Link to='/'> < ai.AiOutlineHome /> Home </Link>
             <Link to='/Vitals'> < TbHeartRateMonitor /> Vitals </Link>
             <Link to='/Stream'> < CiStreamOn /> Stream </Link>
+            <Link to='/Position'> < md.MdPlace /> Position </Link>
 
         </div>
     </div>

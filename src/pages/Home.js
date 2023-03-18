@@ -1,12 +1,10 @@
 import React from 'react';
 
-
 import { Link } from 'react-router-dom';
 
 import image from '../assets/oldman.png';
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-
 
 import "../styles/Home.css";
 
