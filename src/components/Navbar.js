@@ -8,7 +8,7 @@ import * as ai from 'react-icons/ai';
 import * as md from 'react-icons/md';
 import * as bi from 'react-icons/bi';
 import { TbHeartRateMonitor } from "react-icons/tb";
-import { CiStreamOn } from 'react-icons/ci';
+import { BiBrain } from 'react-icons/bi';
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -33,6 +33,7 @@ function Navbar() {
             <Link to='/Vitals'> < TbHeartRateMonitor /> Vitals </Link>
             <Link to='/Stream'> < CiStreamOn /> Stream </Link>
             <Link to='/Position'> < md.MdPlace /> Position </Link>
+            <Link to='/Stream'> < BiBrain /> ElderGuardian </Link>
 
         </div>
     </div>
