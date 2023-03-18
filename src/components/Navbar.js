@@ -9,6 +9,8 @@ import * as md from 'react-icons/md';
 import * as bi from 'react-icons/bi';
 import { TbHeartRateMonitor } from "react-icons/tb";
 import { BiBrain } from 'react-icons/bi';
+import { CiGps } from 'react-icons/ci';
+
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -31,6 +33,7 @@ function Navbar() {
           
             <Link to='/'> < ai.AiOutlineHome /> Home </Link>
             <Link to='/Vitals'> < TbHeartRateMonitor /> Vitals </Link>
+            <Link to='/Position'> < CiGps /> Position </Link>
             <Link to='/Stream'> < BiBrain /> ElderGuardian </Link>
 
         </div>

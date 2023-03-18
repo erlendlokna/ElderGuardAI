@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 
 import Home from './pages/Home';
 import Stream from './pages/Stream';
+import Vitals from './pages/Vitals';
+import Position from './pages/Position';
 
 function App() {
   document.title="Elder Guard";
@@ -16,7 +18,9 @@ function App() {
           <Routes>
 
             <Route path="/" element={<Home/>} />
+            <Route path="/Vitals" element={<Vitals />} />
             <Route path="/Stream" element={<Stream/>} />
+            <Route path="/Position" element={<Position/>} />
 
           </Routes>
         </Router>
